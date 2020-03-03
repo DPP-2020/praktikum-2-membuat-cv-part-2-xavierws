@@ -142,6 +142,104 @@
               </div>
             </ul>
           </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a
+                  class="list-group-item list-group-item-action active"
+                  id="list-home-list"
+                  data-toggle="list"
+                  href="#list-home"
+                  role="tab"
+                  aria-controls="home"
+                  >Speaking</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-profile-list"
+                  data-toggle="list"
+                  href="#list-profile"
+                  role="tab"
+                  aria-controls="profile"
+                  >Sertification</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-messages-list"
+                  data-toggle="list"
+                  href="#list-messages"
+                  role="tab"
+                  aria-controls="messages"
+                  >Quotes</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-settings-list"
+                  data-toggle="list"
+                  href="#list-settings"
+                  role="tab"
+                  aria-controls="settings"
+                  >Blog</a
+                >
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="list-home"
+                  role="tabpanel"
+                  aria-labelledby="list-home-list"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Explicabo consequuntur earum hic repudiandae ipsa dolores.
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-profile"
+                  role="tabpanel"
+                  aria-labelledby="list-profile-list"
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius
+                  similique sequi ducimus, ea corporis natus!
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-messages"
+                  role="tabpanel"
+                  aria-labelledby="list-messages-list"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum ullam repudiandae corrupti pariatur, architecto
+                  commodi?
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-settings"
+                  role="tabpanel"
+                  aria-labelledby="list-settings-list"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi accusamus, aut optio maxime quasi a.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
         <div class="col-md-3">
           <div>
@@ -165,12 +263,54 @@
           </div>
           <div>
             <h5>Achievement</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">number#</li>
-              <li class="list-group-item">number#</li>
-              <li class="list-group-item">number#</li>
-              <li class="list-group-item">number#</li>
-            </ul>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="list-group list-group-flush"
+                    data-toggle="collapse"
+                    href="#collapseOne"
+                  >
+                    <p>ACHIEVMENT</p>
+                  </a>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="list-group list-group-flush"
+                    data-toggle="collapse"
+                    href="#collapseTWO"
+                  >
+                    <p>ACHIEVMENT 2</p>
+                  </a>
+                </div>
+                <div
+                  id="collapseTWO"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="card mt-5 p-3">
             <h5>Contact</h5>
